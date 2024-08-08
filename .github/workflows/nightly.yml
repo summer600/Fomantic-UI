@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository == 'fomantic/Fomantic-UI'
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
       with:
         ref: develop
     - uses: actions/setup-node@v1
